@@ -367,10 +367,10 @@ console.log(myEmail)
 */
 
 //CODE HERE
-let quantity = 0
-const frogPrice = 3
 
 function chocolateFrogs(gold) {
+  let quantity = 0
+  const frogPrice = 3
   while (gold >= frogPrice) {
     quantity += 1
     gold -= 3
@@ -388,6 +388,11 @@ console.log(totalFrogs(30)) // 30 => 10
 
 //CODE HERE
 
+//I actually didn't have this problem. So I'll write it the way they were expecting me to
+
+const chocolateFrogs2 = (gold) => gold/3
+
+console.log(chocolateFrogs2(29))
 
 ////////////////// PROBLEM 21 ////////////////////
 let sampleArray = [0,1,2,3,4,7,5,6,8,9]
