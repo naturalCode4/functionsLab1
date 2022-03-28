@@ -375,15 +375,11 @@ function chocolateFrogs(gold) {
     quantity += 1
     gold -= 3
   }
-      return quantity
-  } else {
-    quantity++
-    chocolateFrogs(quantity)
-}
+    return quantity
 }
 
 totalFrogs = chocolateFrogs
-console.log(totalFrogs(5))
+console.log(totalFrogs(30)) // 30 => 10
 
 ////////////////// PROBLEM 20 ////////////////////
 /*
